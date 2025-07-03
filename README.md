@@ -1,75 +1,17 @@
-# Nuxt Minimal Starter
+# nuxt使用技巧
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 添加tailwindcss支持
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+``` bash
+npx nuxi@latest module add tailwindcss
 ```
 
-## Development Server
+这会自动帮你做以下事情：
 
-Start the development server on `http://localhost:3000`:
+安装依赖
 
-```bash
-# npm
-npm run dev
+生成 tailwind.config.ts
 
-# pnpm
-pnpm dev
+添加 @/assets/css/tailwind.css
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+自动注册模块到 nuxt.config.ts

@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <div id="chatXContent">
     <Header />
-    <NuxtPage />
+    <main class="cx-content">
+      <slot />              <!-- 页面内容插槽 -->
+    </main>
   </div>
 </template>
 
