@@ -1,5 +1,5 @@
 .nav-box{
-    -webkit-backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         background: #ffffff80;
         justify-content: center;
@@ -9,17 +9,17 @@
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 2;
+        z-index: 2; */
 }
 
 #chatXContent{
-    isplay: flex;
+    /* isplay: flex;
     flex-direction: column;
     min-height: 100%;
-    position: relative;
+    position: relative; */
 }
 
 .banner-bar{
-    min-height: 1080px;
+    /* min-height: 1080px; */
     /* width: 1200px; */
 }

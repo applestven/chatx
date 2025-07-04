@@ -1,11 +1,9 @@
 <template>
-  <header class="h-[55px] w-full backdrop-blur-md bg-gray-200/50 flex items-center justify-between px-6 fixed top-0 z-50">
+  <header class="h-[55px] w-full min-w-[1000px] backdrop-blur-md bg-gray-200/50 flex items-center justify-between px-6 fixed top-0 z-50">
     <div class="flex">
       <!-- Logo & Title -->
       <div class="flex items-center space-x-2 mr-6">
         <img src="/ipx/logo.png" alt="ChatX 出海翻译器" class="h-[36px] w-[110px]" />
-        <!-- <span class="font-bold text-gray-800 text-lg">ChatX 出海翻译器</span> -->
-        
       </div>
 
       <!-- 导航菜单 -->
