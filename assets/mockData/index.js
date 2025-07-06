@@ -2,19 +2,19 @@
 const dataStatistics = [
   {
     id: 1,
-    number: '10000',
+    number: 10000,
     suffix: '+',
     description: '累计服务用户',
   },
   {
     id: 2,
-    number: '10000',
+    number: 10000,
     suffix: 'w+',
     description: '帮助企业拓客粉丝',
   },
   {
     id: 3,
-    number: '20',
+    number: 20,
     suffix: '亿+',
     description: '未来将触达的市场',
   }
@@ -43,5 +43,27 @@ const listProblems = [
   }
 ];
 
+const brandList = [
+  { id: 1, text: "Zalo", icon: "/ipx/brandList/Zalo.png" },
+  { id: 2, text: "WhatsApp", icon: "/ipx/brandList/WhatsApp.png" },
+  { id: 3, text: "Telegram", icon: "/ipx/brandList/Telegram.png" },
+  { id: 4, text: "TelegramK", icon: "/ipx/brandList/TelegramK.png" },
+  { id: 5, text: "Instagram", icon: "/ipx/brandList/Instagram.png" },
+  { id: 6, text: "Messenger", icon: "/ipx/brandList/Messenger.png" },
+  { id: 7, text: "Twitter", icon: "/ipx/brandList/Twitter.png" },
+  { id: 8, text: "LINE", icon: "/ipx/brandList/LINE.png" },
+  { id: 9, text: "Snapchat", icon: "/ipx/brandList/Snapchat.png" },
+  { id: 10, text: "TikTok", icon: "/ipx/brandList/TikTok.png" },
+  { id: 11, text: "GoogleVoice", icon: "/ipx/brandList/GoogleVoice.png" },
+  { id: 12, text: "LineBusiness", icon: "/ipx/brandList/LineBusiness.png" },
+  { id: 13, text: "Facebook", icon: "/ipx/brandList/Facebook.png" },
+  { id: 14, text: "Discord", icon: "/ipx/brandList/Discord.png" },
+  { id: 15, text: "Skype", icon: "/ipx/brandList/Skype.png" }
+]
+
 // 命名导出（推荐）
-export { dataStatistics, listProblems };
+export { 
+  dataStatistics, 
+  listProblems ,
+  brandList
+};

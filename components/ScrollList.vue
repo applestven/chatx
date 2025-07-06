@@ -1,5 +1,5 @@
 <template>
-  <div class="scroll-container relative overflow-hidden h-[56px] w-full">
+  <div class="scroll-container relative overflow-hidden h-[56px] w-full mb-[32px]">
     <ul
       ref="listContainer"
       class="flex absolute top-0 left-0"
@@ -10,7 +10,7 @@
       <li
         v-for="(item, index) in tripleItems"
         :key="`${item.id}-${index}`"
-        class="flex-shrink-0 w-[180px] h-[56px] flex items-center justify-center"
+        class="flex-shrink-0 w-[180px] h-[56px] flex items-center justify-center mx-[16px]"
         :class="itemClass"
       >
         <slot :item="item">
@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 
 const props = defineProps({
   items: {
@@ -60,12 +60,11 @@ const tripleItems = computed(() => {
 
 const itemsWidth = computed(() => props.items.length * 180)
 
-// 初始位置：始终从中间一组开始
 const initPosition = () => {
+  // 左：-itemsWidth，右：-itemsWidth
   currentPosition.value = -itemsWidth.value
 }
 
-// 动画主逻辑
 const animate = () => {
   if (isHovering.value && props.pauseOnHover) {
     animationFrame.value = requestAnimationFrame(animate)
@@ -75,12 +74,14 @@ const animate = () => {
   if (props.direction === 'left') {
     currentPosition.value -= props.speed
     if (currentPosition.value <= -itemsWidth.value * 2) {
+      // 回到中间
       currentPosition.value += itemsWidth.value
     }
   } else {
-    currentPosition.value += props.speed
-    // ✅ 正确判断向右的“滚完一轮”触发点
-    if (currentPosition.value >= itemsWidth.value) {
+  
+    currentPosition.value += Number(props.speed)
+    if (currentPosition.value >= 0) {
+      // 回到中间
       currentPosition.value -= itemsWidth.value
     }
   }
@@ -88,8 +89,6 @@ const animate = () => {
   animationFrame.value = requestAnimationFrame(animate)
 }
 
-
-// 悬停暂停
 const handleMouseEnter = () => {
   isHovering.value = true
 }
@@ -115,6 +114,14 @@ onMounted(() => {
 onBeforeUnmount(() => {
   stopAnimation()
 })
+
+// 监听items和direction变化，重置位置
+watch(
+  () => [props.items, props.direction],
+  () => {
+    initPosition()
+  }
+)
 </script>
 
 <style scoped>

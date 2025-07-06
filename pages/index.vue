@@ -85,39 +85,38 @@
       </section>
 
       <!-- 覆盖社交 -->
-      <section>
-        <h2>w1wsaws</h2>
+      <section class="w-[1200px] pb-[162px]">
+        <h2 class="text-[32px] font-[600]">我们已有的和陆续涵盖的社交平台</h2>
         <article class="cx-index-app">
-          <h2>向左循环移动</h2>
+          <!-- <h2>向左循环移动</h2> -->
           <ScrollList
-            :items="items"
+            :items="brandList"
             direction="left"
-            speed="2"
-            class="bg-gray-100"
+            :speed="2.5"
+            class=""
           >
             <template #default="{ item }">
-              <div class="p-4 bg-blue-500 text-white rounded">
-                {{ item.text }}
+              <div class="mx- bg-[#FAFAFA] text-white rounded min-h-[56px] w-[180px] flex items-center gap-2 justify-center"> 
+                <img :src="item.icon" :alt="item.text" class="w-[32px] h-[32px]" />
+                <p class="text-gray-700 font-[600] text-[16px]"> {{ item.text }} </p>
               </div>
             </template>
           </ScrollList>
-
-          <h2 class="mt-8">向右循环移动</h2>
-          <ScrollList
-            :items="items"
+         <ScrollList
+            :items="brandList"
             direction="right"
-            speed="2"
-            class="bg-gray-100"
+            :speed="2.5"
+            class=""
           >
             <template #default="{ item }">
-              <div class="p-4 bg-blue-500 text-white rounded">
-                {{ item.text }}
+              <div class="mx- bg-[#FAFAFA] text-white rounded min-h-[56px] w-[180px] flex items-center gap-2 justify-center"> 
+                <img :src="item.icon" :alt="item.text" class="w-[32px] h-[32px]" />
+                <p class="text-gray-700 font-[600] text-[16px]"> {{ item.text }} </p>
               </div>
             </template>
           </ScrollList>
         </article>
       </section>
-
       <section class="h-[100px]"></section>
     </div>
   </section>
@@ -126,15 +125,7 @@
 <script setup>
 import AnimatedNumber from "../components/AnimatedNumber.vue";
 import ScrollList from "../components/ScrollList.vue";
-import { dataStatistics, listProblems } from "../assets/mockData/index.js";
-
-const items = [
-  { id: 1, text: "Item 1" },
-  { id: 2, text: "Item 2" },
-  { id: 3, text: "Item 3" },
-  { id: 4, text: "Item 4" },
-  { id: 5, text: "Item 5" },
-];
+import { dataStatistics, listProblems,brandList } from "../assets/mockData/index.js";
 onMounted(() => {
   // 确保 AOS 被初始化（在浏览器环境中）
   if (process.client && window.AOS) {
