@@ -182,3 +182,16 @@
     min-height: 440px;
     width: 100%;
 }
+.cx-footer-bar p{
+    margin-bottom:16px;
+    font-size: 14px;
+}
+.cx-footer-bar a{
+    margin-bottom:16px;
+    display: inline-block;
+    font-size: 14px;
+    color: #676c76;
+}
+.cx-footer-bar h3{ 
+    margin-bottom: 32px;
+}
