@@ -61,9 +61,122 @@ const brandList = [
   { id: 15, text: "Skype", icon: "/ipx/brandList/Skype.png" }
 ]
 
+const funcSectionList = [
+  {
+    id: "translate",
+    direction: "left",
+    imageSrc: "/ipx/produtctDesc/cx-index-d-1.webp",
+    lineImageSrc: "/ipx/line-right.webp",
+    moreLink: "/productTranslate",
+    content: {
+      title: "实时翻译 · 智能多语⾔识别",
+      sections: [
+        {
+          subtitle: "多线路，多语言",
+          text: "集成超过10条顶级翻译线路，⽀持全球200+语⾔，⽆需切换，智能识别语⾔类型，确保全球⽤户⽆缝沟通，实现真正的全球互联。",
+        },
+        {
+          subtitle: "发送接收实时翻译",
+          text: "⽆论何时何地，⽀持多语⾔在线实时翻译，快速响应，⾼效沟通，打破语⾔障碍，让您的业务遍布全球。",
+        },
+      ],
+    },
+  },
+  {
+    id: "platform",
+    direction: "right",
+    imageSrc: "/ipx/produtctDesc/cx-index-d-2.webp",
+    lineImageSrc: "/ipx/line-left.webp",
+    moreLink: "/productPlatform",
+    content: {
+      title: "多平台聚合管理 · 轻松全球触达",
+      sections: [
+        {
+          subtitle: "主流平台⼀键切换",
+          text: "全⾯⽀持WhatsApp、Telegram、Line等多款全球主流社交软件，助您实现多渠道精准获客，轻松拓展全球市场。",
+        },
+        {
+          subtitle: "多账号同步管理",
+          text: "单⼀平台即可同时管理多个账号，⽆需频繁切换，优化操作效率，让您的营销更加⾼效便捷。",
+        },
+      ],
+    },
+  },
+  {
+    id: "callback",
+    direction: "left",
+    imageSrc: "/ipx/produtctDesc/cx-index-d-3.webp",
+    lineImageSrc: "/ipx/line-right.webp",
+    moreLink: "/productCallback",
+    content: {
+      title: "快捷回复 · ⼀键触达",
+      sections: [
+        {
+          subtitle: "预设回复模板 · ⾼效互动",
+          text: "通过预设回复模板，您可以快速选择并发送常⽤信息，⽆需重复输⼊，节省时间，确保与客户的⾼效沟通，提升⼯作效率。",
+        },
+        {
+          subtitle: "智能关键词触发 · ⾃动回复",
+          text: "根据⽤户输⼊的关键词，系统可⾃动匹配并发送预设回复，实现⼀键触达，确保及时响应客户需求，提升客户满意度。",
+        },
+      ],
+    },
+  },
+  {
+    id: "fingerprint",
+    direction: "right",
+    imageSrc: "/ipx/produtctDesc/cx-index-d-4.webp",
+    // lineImageSrc: "/ipx/line-left.webp",
+    moreLink: "/productAccount",
+    content: {
+      title: "智能指纹保护 · 安全护航您的账号",
+      sections: [
+        {
+          subtitle: "智能指纹模拟 · 隐私保护升级",
+          text: "通过智能指纹模拟技术，系统⾃动⽣成独特的浏览器指纹，避免账号关联和追踪，保护您的隐私，确保每个账号都在安全的环境中运⾏。",
+        },
+        {
+          subtitle: "多环境隔离 · 防⽌封号⻛险",
+          text: "⽀持多环境隔离配置，确保每个账号在独⽴的指纹环境中运⾏，有效降低因指纹重复导致的封号⻛险，为您的账号保驾护航。",
+        },
+      ],
+    },
+  },
+]
+
+const userFeedbackList = [
+  {
+    id: "christopher",
+    avatar: "/ipx/cx-index-u-1.webp",
+    name: "Christopher",
+    title: "国际市场营销经理",
+    description:
+      "我的⼯作需要与全球各地的团队和客户密切合作。ChatX的多语⾔实时翻译和社交APP集成功能，彻底消除沟通障碍。⽆论是策划全球营销活动，还是与国际客户进⾏实时交流ChatX都为我们提供了极⼤的便利和效率。这款⼯具显著提升了我们的营销效果，让我们在全球市场中更具竞争⼒。",
+  },
+  {
+    id: "frances",
+    avatar: "/ipx/cx-index-u-2.webp",
+    name: "Frances",
+    title: "运营总监",
+    description:
+      "作为⼀家跨境电商平台的运营总监，我深知全球沟通的重要性。⾃从使⽤了ChatX，我们的团队在与世界各地的客户和合作伙伴交流时变得更加⾼效顺畅。ChatX强⼤的多语⾔⽀持和社交平台整合功能，让我们在全球市场中占据了更有利的位置。此外，它的客户备注功能帮助我们更好地了解客户需求，推动了平台的快速增⻓和持续成功。",
+  },
+  {
+    id: "lgnativs",
+    avatar: "/ipx/cx-index-u-3.webp",
+    name: "Lgnativs",
+    title: "项⽬经理",
+    description:
+      "我的⼯作需要频繁与来⾃不同国家和⽂化背景的事及合作伙伴沟通。ChatX翻译软件已成为我们不可或缺的⼯具。它不仅⽀持多语⾔，还能与各种社交APP⽆缝集成，⼤⼤提升了我们的⼯作效率和沟通顺畅度。ChatX真正改善了我们的跨国合作，确保项⽬推进更加顺利。",
+  },
+]
+
+
 // 命名导出（推荐）
-export { 
-  dataStatistics, 
-  listProblems ,
-  brandList
+export {
+  dataStatistics,
+  listProblems,
+  brandList,
+  funcSectionList,
+  userFeedbackList
 };
