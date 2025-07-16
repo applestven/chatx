@@ -23,7 +23,7 @@
           </div>
 
           <NuxtLink href="#download" class="hover:text-blue-500 transition" to="/download">下载中心</NuxtLink>
-          <a href="#contact" class="hover:text-blue-500 transition">联系我们</a>
+          <NuxtLink href="#contact" class="hover:text-blue-500 transition" to="/contact">联系我们</NuxtLink>
           <a href="#pricing" class="hover:text-blue-500 transition">套餐价格</a>
           <a href="#support" class="hover:text-blue-500 transition">客户支持</a>
           <a href="#tutorials" class="hover:text-blue-500 transition">教程资源</a>

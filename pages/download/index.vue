@@ -1,8 +1,7 @@
 <template>
-  <section class="banner-bar min-h-[200vh]">
-    <div class="text-center flex flex-col items-center justify-center">
-
-        <main class="flex flex-col items-center w-full pt-[60px] !bg-[url('/public/ipx/cx-index-q-bar.jpeg')] bg-top bg-no-repeat bg-[length:100%_630px]">
+  <section class="text-center flex flex-col items-center justify-center">
+    
+    <div class="flex flex-col items-center w-full pt-[60px] bg-top bg-no-repeat bg-[length:100%_630px]">
                 <!-- 下载客户端 -->
             <h1 class="mt-[100px] text-[40px] w-[570px] text-[#22242C] font-medium z-5 text-center"><strong class="text-[#00BC53]">下载 ChatX SCRM 客户端</strong></h1>
 
@@ -32,10 +31,11 @@
                         <p class="text-[12px] cursor-pointer underline">低版本下载</p>
                 </article>
             </div>
+    </div>
 
-            <h2 class="mt-[80px] block text-[24px] my-[20px] mx-0 font-bold isolate">下载安装常见问题汇总</h2>
+    <h2 class="mt-[80px] block text-[24px] my-[20px] mx-0 font-bold isolate">下载安装常见问题汇总</h2>
 
-            <section class="flex justify-between w-[1200px]">
+    <section class="flex justify-between w-[1200px]">
                     <article class="bg-gradient-to-b from-[#eaf8ee] to-[#f6fcf8] rounded-[8px] min-h-[693px] w-[580px]">
                         <img src="/public/ipx/download-img-1.webp" width="580" class="max-w-[100%] "/>
                         <h2 class="text-[#22242c] text-[24px] font-semibold leading-[33px] mt-[24px] pl-[40px] text-left">Windows已保护你的电脑</h2>
@@ -58,10 +58,9 @@
                             </button>
                         </a>
                     </article>
-            </section>
-        </main>
+    </section>
 
-        <div class="flex flex-col items-center justify-start mt-[80px] min-h-[334px] w-full pb-[120px]">
+    <div class="flex flex-col items-center justify-start mt-[80px] min-h-[334px] w-full pb-[120px]">
             <div class="bg-gradient-to-b from-[#f2fff1] from-[3%] to-white border border-[#f3f3f3] rounded-lg box-border flex justify-between min-h-[340px] px-[60px] pb-[20px] w-[1200px]">
                 <div>
                     <h1 data-aos="fade-up" class="text-[#00bc53] text-[36px] font-normal leading-[56px] mt-[54px] text-left w-[520px]">ChatX服务于全国的跨国创业者们，助您精准表达，无缝沟通</h1>
@@ -74,71 +73,16 @@
                         <button class="text-[20px] min-h-[64px] w-[240px] bg-[#22242c] rounded-[4px] text-[#fff] cursor-pointer leading-[20px] px-5 py-2 transition-all duration-300">开始使用</button>
                     </div>
                 </div>
-            </div>
-        </div>
+             </div>
+      </div>
 
-        <!-- 联系我们 -->
-        <div class="cx-footer-bar mt-[120px] pt-[68px] mb-0">
-            <footer class="flex justify-between w-[1200px]">
-          <div class="mb-[16px]">
-            <router-link to="/" class="text-[#00BC53] text-[16px] font-medium">
-              <img src="/ipx/logo2.webp" alt="ChatX Logo" class="w-[72px] h-[72px] inline-block mr-[8px]" />
-            </router-link>
-            <router-link to="/" class="text-[#00BC53] text-[16px] font-medium mb-[16px]">
-              <img src="/ipx/logo3.webp" alt="ChatX Logo" class="w-[126px] ] inline-block mr-[8px]" />
-            </router-link>
-            <p class="mt-[16px] text-[14px]"> ChatX 服务于全球的跨国创业者们，助您精准表达，无缝沟通。</p>
-          </div>
+    <Footer />
 
-          <div class="text-left">
-            <h3 data-v-a745acbc="">联系我们</h3>
-            <p data-v-a745acbc="">客服</p>
-            <a target="_blank" data-v-a745acbc="" href="https://t.me/ChatX788">@ChatX788</a>
-            <p data-v-a745acbc="">官方频道</p><a target="_blank" data-v-a745acbc=""
-              href="https://t.me/chatx_news">@chatx_news</a>
-            <p data-v-a745acbc="">联系邮箱</p><a href="mailto:chatx@gochatx.com" data-v-a745acbc="">chatx@gochatx.com</a>
-          </div>
-
-          <div class="text-left">
-            <h3 data-v-a745acbc="">产品功能</h3>
-            <p data-v-a745acbc=""><a href="/productTranslate" class="" id="footerProductTranslate"
-                data-v-a745acbc="">实时翻译 ·
-                智能多语⾔识别</a></p>
-            <p data-v-a745acbc=""><a href="/productPlatform" class="" id="footerProductPlatform"
-                data-v-a745acbc="">多平台多账号聚合管理</a></p>
-            <p data-v-a745acbc=""><a href="/productCallback" class="" id="footerProductCallback" data-v-a745acbc="">快捷回复
-                ·
-                ⼀键触达</a></p>
-            <p data-v-a745acbc=""><a href="/productAccount" class="" id="footerProductAccount" data-v-a745acbc="">智能指纹保护
-                安全护航</a></p>
-          </div>
-
-          <div class="text-left">
-            <h3 data-v-a745acbc="">客户端下载</h3>
-            <p data-v-a745acbc=""><a href="/download" class="" id="footerWindowDownload"
-                data-v-a745acbc="">Windows版本</a></p>
-            <p data-v-a745acbc=""><a href="/download" class="" id="footerMacDownload" data-v-a745acbc="">Mac版本</a></p>
-          </div>
-
-          <div class="text-left">
-            <h3 data-v-a745acbc="">协议规则</h3>
-            <p data-v-a745acbc=""><a href="/serviceAgreement" class="" id="serviceAgreement" data-v-a745acbc="">服务协议</a>
-            </p>
-            <p data-v-a745acbc=""><a href="/privacyPolicy" class="" id="privacyPolicy" data-v-a745acbc="">隐私规则</a></p>
-            <p data-v-a745acbc=""><a href="/disclaimers" class="" id="disclaimers" data-v-a745acbc="">免责声明</a></p>
-            <p data-v-a745acbc=""><a href="/letterCommitment" class="" id="letterCommitment" data-v-a745acbc="">承诺书</a>
-            </p>
-          </div>
-            </footer>
-            <div class="border-t-[1px] border-[#ebebeb] w-full h-[55px] pt-[24px]" >
-                <p> © 2021 - 2024 gochatx.com All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
   </section>
 </template>
 
 <script>
+import Footer from "@/components/Footer.vue";
 export default {
 
 }
