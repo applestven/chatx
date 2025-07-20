@@ -1,5 +1,5 @@
 <template>
-  <section class="banner-bar min-h-[200vh]">
+  <section class="banner-bar min-h-[200vh] home-bg">
     <div class="text-center flex flex-col items-center justify-center">
       <h1 class="mt-[100px] text-[40px] w-[570px] text-[#22242C] font-medium z-5 text-center" data-aos="fade-up">
         <strong class="text-[#00BC53] z-5">ChatX</strong>
