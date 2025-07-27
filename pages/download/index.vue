@@ -40,23 +40,23 @@
                         <img src="/ipx/download-img-1.webp" width="580" class="max-w-[100%] "/>
                         <h2 class="text-[#22242c] text-[24px] font-semibold leading-[33px] mt-[24px] pl-[40px] text-left">Windows已保护你的电脑</h2>
                         <p class="text-[#676c76] text-base font-medium leading-6 mb-6 min-h-24 pl-10 pt-4 text-left w-[500px]">Windows已保护你的电脑</p>
-                        <a class="transition-all duration-300 text-[#22242c] text-[14px] font-medium text-left no-underline">
-                            <button class="flex items-center justify-center gap-3 border border-[#22242c] rounded-lg text-[#22242c] text-base font-medium leading-[22px] min-h-14 w-53 ml-82 bg-none text-center">
+                        <NuxtLink class="transition-all duration-300 text-[#22242c] text-[14px] font-medium text-left no-underline" to="/download/downloadWindows">
+                            <a class="bian flex items-center justify-center gap-3 border border-[#22242c] rounded-lg text-[#22242c] text-base font-medium leading-[22px] min-h-14 w-53 ml-82 bg-none hover:bg-[#22242c] hover:text-white text-center">
                                 查看详细步骤
                                 <img src="/ipx/download-button-icon.png" width="24" class="max-w-[100%]"/>
-                            </button>
-                        </a>
+                            </a>
+                        </NuxtLink>
                     </article>
                     <article class="bg-gradient-to-b from-[#f4f2ff] to-[#fbfaff] rounded-[8px] min-h-[693px] w-[580px]">
-                        <img src="/ipx/download-img-1.webp" width="580" class="max-w-[100%] "/>
-                        <h2 class="text-[#22242c] text-[24px] font-semibold leading-[33px] mt-[24px] pl-[40px] text-left">Windows已保护你的电脑</h2>
-                        <p class="text-[#676c76] text-base font-medium leading-6 mb-6 min-h-24 pl-10 pt-4 text-left w-[500px]">Windows已保护你的电脑</p>
-                        <a class="transition-all duration-300 text-[#22242c] text-[14px] font-medium text-left no-underline">
-                            <button class="flex items-center justify-center gap-3 border border-[#22242c] rounded-lg text-[#22242c] text-base font-medium leading-[22px] min-h-14 w-53 ml-82 bg-none text-center">
+                        <img src="/ipx/download-img-2.webp" width="580" class="max-w-[100%] "/>
+                        <h2 class="text-[#22242c] text-[24px] font-semibold leading-[33px] mt-[24px] pl-[40px] text-left">Mac无法验证开发者</h2>
+                        <p class="text-[#676c76] text-base font-medium leading-6 mb-6 min-h-24 pl-10 pt-4 text-left w-[500px]">Mac无法验证开发者</p>
+                        <NuxtLink class="transition-all duration-300 text-[#22242c] text-[14px] font-medium text-left no-underline" to="/download/downloadMac">
+                            <a class="bian flex items-center justify-center gap-3 border border-[#22242c] rounded-lg text-[#22242c] text-base font-medium leading-[22px] min-h-14 w-53 ml-82 bg-none hover:bg-[#22242c] hover:text-white text-center">
                                 查看详细步骤
                                 <img src="/ipx/download-button-icon.png" width="24" class="max-w-[100%]"/>
-                            </button>
-                        </a>
+                            </a>
+                        </NuxtLink>
                     </article>
     </section>
 
@@ -68,11 +68,14 @@
 </template>
 
 <script setup>
+import { NuxtLink } from '#components';
 import Footer from "@/components/Footer.vue";
 import StartUse from "@/components/StartUse.vue";
 
 </script>
 
 <style>
-
+.bian:hover img {
+    filter: invert(100%);
+}
 </style>
