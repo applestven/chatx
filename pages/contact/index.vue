@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center bg-position-top bg-no-repeat bg-size-[100% 630px] pt-[60px] w-[100%]">
+  <section class="flex flex-col items-center bg-position-top bg-no-repeat bg-size-[100% 630px] pt-[60px] w-[100%] download-page-bg">
 
     <div class="min-h-[630px] w-[1200px] flex flex-col items-center">
       <h1 class="text-[#00bc53] text-[40px] font-semibold leading-[56px] mt-[100px] text-left">欢迎 联系我们</h1>

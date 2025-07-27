@@ -15,10 +15,19 @@
   width: 100%;
 }
 .download-bg {
-  background-image: url(/image/cx-index-q-bg.jpeg);
+  background-image: url(/ipx/cx-index-q-bar.jpeg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 1080px;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.download-page-bg {
+  background-image: url(/ipx/cx-index-q-bar.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 630px;
   padding-top: 60px;
   width: 100%;
 }
