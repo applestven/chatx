@@ -67,12 +67,10 @@
   </section>
 </template>
 
-<script>
+<script setup>
 import Footer from "@/components/Footer.vue";
 import StartUse from "@/components/StartUse.vue";
-export default {
 
-}
 </script>
 
 <style>

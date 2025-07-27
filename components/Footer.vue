@@ -8,7 +8,7 @@
               <img src="/ipx/logo2.webp" alt="ChatX Logo" class="w-[72px] h-[72px] inline-block mr-[8px]" />
             </router-link>
             <router-link to="/" class="text-[#00BC53] text-[16px] font-medium mb-[16px]">
-              <img src="/ipx/logo3.webp" alt="ChatX Logo" class="w-[126px] ] inline-block mr-[8px]" />
+              <img src="/ipx/logo3.webp" alt="ChatX Logo" class="w-[126px] inline-block mr-[8px]" />
             </router-link>
             <p class="mt-[16px] text-[14px]"> ChatX 服务于全球的跨国创业者们，助您精准表达，无缝沟通。</p>
           </div>

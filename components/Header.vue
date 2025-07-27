@@ -9,12 +9,12 @@
 
         <!-- 导航菜单  使用nuxt跳转-->
         <nav class="nav w-[468px] flex items-center justify-between font-small">
-          <nuxt-link to="features" class="hover:text-blue-500 transition nav-list">产品功能</nuxt-link>
+          <!-- <nuxt-link to="features" class="hover:text-blue-500 transition nav-list">产品功能</nuxt-link>
           <nuxt-link to="download" class="hover:text-blue-500 transition">下载中心</nuxt-link>
           <nuxt-link to="contact" class="hover:text-blue-500 transition">联系我们</nuxt-link>
           <nuxt-link to="pricing" class="hover:text-blue-500 transition">套餐价格</nuxt-link>
           <nuxt-link to="support" class="hover:text-blue-500 transition">客户支持</nuxt-link>
-          <nuxt-link to="tutorials" class="hover:text-blue-500 transition">教程资源</nuxt-link>
+          <nuxt-link to="tutorials" class="hover:text-blue-500 transition">教程资源</nuxt-link> -->
           <!-- <a href="#features" class="hover:text-blue-500 transition nav-list">产品功能</a> -->
           <div class="relative group"> <!-- 移除了鼠标事件 -->
             <span class="flex items-center product-feature">
@@ -52,7 +52,7 @@
 </template>
 
 
-<script>
+<script setup>
 import { NuxtLink } from '#components';
 
 

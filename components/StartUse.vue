@@ -7,9 +7,9 @@
                     <p data-aos="fade-up" class="text-[#676c76] text-base font-medium leading-6 text-left">无论您对于ChatX的产品定价、方案定制或其他任何方面的问题 都可以随时联系我们</p>
                 </div>
                 <div class="flex flex-col items-end mr-[20px]" data-aos="fade-up">
-                    <img src="/public/ipx/cx-index-end-pic.webp" class="w-[242px] h-[62px] mt-[64px]"/>
+                    <img src="/ipx/cx-index-end-pic.webp" class="w-[242px] h-[62px] mt-[64px]"/>
                     <div class="flex justify-between mt-[78px]">
-                        <img src="/public/ipx/index-btn-icon-2.webp" class="h-[48px] w-[48px] mr-[24px]"/>
+                        <img src="/ipx/index-btn-icon-2.webp" class="h-[48px] w-[48px] mr-[24px]"/>
                         <button class="text-[20px] min-h-[64px] w-[240px] bg-[#22242c] rounded-[4px] text-[#fff] cursor-pointer leading-[20px] px-5 py-2 transition-all duration-300">开始使用</button>
                     </div>
                 </div>
