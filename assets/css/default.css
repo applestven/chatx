@@ -1,8 +1,24 @@
-.cx-content{
-    background-image: url(/ipx/home-banner.webp);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 1080px;
-    padding-top: 60px;
-    width: 100%;
+.cx-content {
+  /* background-image: url(/ipx/home-banner.webp); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+  padding-top: 60px;
+  width: 100%;
+}
+.home-bg {
+  background-image: url(/ipx/home-banner.webp);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+  padding-top: 60px;
+  width: 100%;
+}
+.download-bg {
+  background-image: url(/image/cx-index-q-bg.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+  padding-top: 60px;
+  width: 100%;
 }
