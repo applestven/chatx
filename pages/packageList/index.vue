@@ -78,7 +78,7 @@
         </div>
 
         <!-- 标准版 -->
-        <div class="flex-1 bg-gradient-to-b from-[#edf9fe] to-[#f4fbfe] rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6 relative border-2 border-[#00BC53]">
+        <div class="flex-1 bg-gradient-to-b from-[#edf9fe] to-[#f4fbfe] rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6 relative">
           <div class="absolute top-0 right-0 bg-[#00BC53] text-white text-xs font-bold px-4 py-1 rounded-bl-lg rounded-tr-lg">
             推荐
           </div>
@@ -145,398 +145,57 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">文本翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">翻译路线</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">普通翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">google翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">DeepL翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">Gemini AI翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">ChatGPT AI翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">Claude AI翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">Grok AI翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">聊天</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">聚合多开</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">未读提醒</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">会话代理</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">Telegram好友群发</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">Telegram陌生人群发</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">计数器</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">粉丝计数</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">分流链接</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">工单分享</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">用户画像</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">用户画像</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">跟进记录</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">备忘录</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">快捷回复</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">快捷回复-个人模版</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">快捷回复-公共模版</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">其他功能</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-              </tr>
-              <tr>
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">粉丝独立翻译</td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
-              <tr class="bg-gray-50">
-                <td class="border border-[#e3e3e3] p-4 text-[#22242c]">客户端多开</td>
-                <td class="border border-[#e3e3e3] p-4 text-center"></td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-                <td class="border border-[#e3e3e3] p-4 text-center">
-                  <svg class="w-5 h-5 text-[#00BC53] mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                </td>
-              </tr>
+              <template v-for="(category, categoryIndex) in packageComparison" :key="categoryIndex">
+                <tr>
+                  <td class="border border-[#e3e3e3] p-4 font-semibold text-[#22242c]">{{ category.category }}</td>
+                  <td class="border border-[#e3e3e3] p-4 text-center"></td>
+                  <td class="border border-[#e3e3e3] p-4 text-center"></td>
+                  <td class="border border-[#e3e3e3] p-4 text-center"></td>
+                </tr>
+                <tr 
+                  v-for="(feature, featureIndex) in category.features" 
+                  :key="featureIndex"
+                  :class="[(categoryIndex * category.features.length + featureIndex) % 2 === 0 ? 'bg-white' : 'bg-gray-50']"
+                >
+                  <td class="border border-[#e3e3e3] p-4 text-[#22242c]">{{ feature.name }}</td>
+                  <td class="border border-[#e3e3e3] p-4 text-center">
+                    <svg 
+                      v-if="feature.free" 
+                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24" 
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </td>
+                  <td class="border border-[#e3e3e3] p-4 text-center">
+                    <svg 
+                      v-if="feature.character" 
+                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24" 
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </td>
+                  <td class="border border-[#e3e3e3] p-4 text-center">
+                    <svg 
+                      v-if="feature.standard" 
+                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      viewBox="0 0 24 24" 
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                  </td>
+                </tr>
+              </template>
             </tbody>
           </table>
         </div>
@@ -550,7 +209,7 @@
           <!-- 问题1 -->
           <div class="bg-white rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6">
             <div class="flex justify-between items-center cursor-pointer" @click="toggleFAQ(0)">
-              <h3 class="text-lg font-semibold text-[#22242c]">我有增加更多账号、更多团队成员的需求，是否支持增购？</h3>
+              <h3 class="text-lg font-semibold transition-colors duration-300" :class="activeFAQTitle.includes(0) ? 'text-emerald-500' : 'text-[#22242c]'">我有增加更多账号、更多团队成员的需求，是否支持增购？</h3>
               <svg :class="{'transform rotate-180': activeFAQ === 0}" class="w-5 h-5 text-[#22242c] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -563,7 +222,7 @@
           <!-- 问题2 -->
           <div class="bg-white rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6">
             <div class="flex justify-between items-center cursor-pointer" @click="toggleFAQ(1)">
-              <h3 class="text-lg font-semibold text-[#22242c]">产品当前是否必须按年付费？</h3>
+              <h3 class="text-lg font-semibold transition-colors duration-300" :class="activeFAQTitle.includes(1) ? 'text-emerald-500' : 'text-[#22242c]'">产品当前是否必须按年付费？</h3>
               <svg :class="{'transform rotate-180': activeFAQ === 1}" class="w-5 h-5 text-[#22242c] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -576,7 +235,7 @@
           <!-- 问题3 -->
           <div class="bg-white rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6">
             <div class="flex justify-between items-center cursor-pointer" @click="toggleFAQ(2)">
-              <h3 class="text-lg font-semibold text-[#22242c]">产品套餐后续是否会涨价？</h3>
+              <h3 class="text-lg font-semibold transition-colors duration-300" :class="activeFAQTitle.includes(2) ? 'text-emerald-500' : 'text-[#22242c]'">产品套餐后续是否会涨价？</h3>
               <svg :class="{'transform rotate-180': activeFAQ === 2}" class="w-5 h-5 text-[#22242c] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -589,7 +248,7 @@
           <!-- 问题4 -->
           <div class="bg-white rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6">
             <div class="flex justify-between items-center cursor-pointer" @click="toggleFAQ(3)">
-              <h3 class="text-lg font-semibold text-[#22242c]">产品后续还会有哪些更新计划？</h3>
+              <h3 class="text-lg font-semibold transition-colors duration-300" :class="activeFAQTitle.includes(3) ? 'text-emerald-500' : 'text-[#22242c]'">产品后续还会有哪些更新计划？</h3>
               <svg :class="{'transform rotate-180': activeFAQ === 3}" class="w-5 h-5 text-[#22242c] transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
@@ -601,22 +260,221 @@
         </div>
       </div>
     </div>
+
+    
+    <StartUse />
+
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer.vue";
+import StartUse from "@/components/StartUse.vue";
 export default {
   name: 'PackageList',
   data() {
     return {
-      activeFAQ: null
+      activeFAQ: null,
+      activeFAQTitle: [], // 用于跟踪活动FAQ标题颜色的数组
+      packageComparison: [
+        {
+          "category": "翻译",
+          "features": [
+            {
+              "name": "文本翻译",
+              "free": true,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "翻译路线",
+          "features": [
+            {
+              "name": "普通翻译",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "google翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "DeepL翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "Gemini AI翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "ChatGPT AI翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "Claude AI翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "Grok AI翻译",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "聊天",
+          "features": [
+            {
+              "name": "聚合多开",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "未读提醒",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "会话代理",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "Telegram好友群发",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "Telegram陌生人群发",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "计数器",
+          "features": [
+            {
+              "name": "粉丝计数",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "分流链接",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "工单分享",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "用户画像",
+          "features": [
+            {
+              "name": "用户画像",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "跟进记录",
+              "free": false,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "备忘录",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "快捷回复",
+          "features": [
+            {
+              "name": "快捷回复-个人模版",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "快捷回复-公共模版",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        },
+        {
+          "category": "其他功能",
+          "features": [
+            {
+              "name": "粉丝独立翻译",
+              "free": true,
+              "character": true,
+              "standard": true
+            },
+            {
+              "name": "客户端多开",
+              "free": false,
+              "character": true,
+              "standard": true
+            }
+          ]
+        }
+      ]
     }
   },
   methods: {
     toggleFAQ(index) {
+      // 切换FAQ内容的展开/收起
       this.activeFAQ = this.activeFAQ === index ? null : index;
+      
+      // 切换FAQ标题的颜色
+      const titleIndex = this.activeFAQTitle.indexOf(index);
+      if (titleIndex !== -1) {
+        // 如果标题已在activeFAQTitle数组中，则移除它（恢复原色）
+        this.activeFAQTitle.splice(titleIndex, 1);
+      } else {
+        // 如果标题不在activeFAQTitle数组中，则添加它（变为emerald-500颜色）
+        this.activeFAQTitle.push(index);
+      }
     }
-  }
+  },
+  components: {
+    // 可以在此处注册其他组件
+    StartUse,
+    Footer
+  },
 }
 </script>
 
