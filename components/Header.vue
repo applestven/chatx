@@ -21,10 +21,10 @@
               <a href="#features" class="hover:text-blue-500 transition nav-list">产品功能</a>
             </span>
             <ul class="absolute mt-2 py-2 bg-white border rounded shadow dropdown-menu">
-              <li><a href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]">实时翻译 · 智能多语言识别</a></li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]">多平台多账号聚合管理</a></li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]">快捷回复 · 一键触达</a></li>
-              <li><a href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]">智能指纹保护 · 安全护航</a></li>
+              <li><NuxtLink href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]" to="/product/productTranslate">实时翻译 · 智能多语言识别</NuxtLink></li>
+              <li><NuxtLink href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]" to="/product/productPlatform">多平台多账号聚合管理</NuxtLink></li>
+              <li><NuxtLink href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]" to="/product/productCallback">快捷回复 · 一键触达</NuxtLink></li>
+              <li><NuxtLink href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]" to="/product/productAccount">智能指纹保护 · 安全护航</NuxtLink></li>
             </ul>
           </div>
 
