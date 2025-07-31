@@ -4,7 +4,7 @@
       <div class="flex">
         <!-- Logo & Title -->
         <div class="flex items-center space-x-2 mr-6">
-          <img src="/ipx/logo.png" alt="ChatX 出海翻译器" class="h-[36px] w-[110px]" />
+          <img src="/ipx/logo.png" alt="ChatX 出海翻译器" class="h-[36px] w-[110px] cursor-pointer" @click="goHome()"  />
         </div>
 
         <!-- 导航菜单  使用nuxt跳转-->
@@ -54,7 +54,10 @@
 
 <script setup>
 import { NuxtLink } from '#components';
-
+const goHome =()=> {
+  // nuxt跳转主页
+  navigateTo('/')
+}
 
 </script>
 
