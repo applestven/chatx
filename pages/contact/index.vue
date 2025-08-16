@@ -2,7 +2,7 @@
   <section class="flex flex-col items-center bg-position-top bg-no-repeat bg-size-[100% 630px] pt-[60px] w-[100%] download-page-bg">
 
     <div class="min-h-[630px] w-[1200px] flex flex-col items-center">
-      <h1 class="text-[#00bc53] text-[40px] font-semibold leading-[56px] mt-[100px] text-left">欢迎 联系我们</h1>
+      <h1 class="text-primary-light text-[40px] font-semibold leading-[56px] mt-[100px] text-left">欢迎 联系我们</h1>
       <h3 class="text-[#22242c] text-[16px] font-semibold leading-[22px] pt-[16px] text-left">我们致力于为您提供个性化的服务。任何问题请联系</h3>
 
       <div class="flex items-center justify-center gap-[40px] min-h-[400px] pt-[80px] w-[1200px]">
@@ -10,13 +10,13 @@
           <article class="min-h-[182px] w-[580px] bg-white border border-gray-100 rounded-lg shadow-custom p-8 box-border relative">
             <h4 class="text-[#22242c] text-[20px] font-semibold leading-[28px] text-left">在线客服</h4>
             <p class="text-[#747983] text-[16px] font-normal leading-[22px] mt-[12px] text-left">为您提供及时的帮助、反馈以及业务咨询</p>
-            <a class="text-[#00bc53] cursor-pointer block text-[20px] font-medium leading-[28px] mt-[26px] text-left">@ChatX788</a>
+            <a class="text-primary-light cursor-pointer block text-[20px] font-medium leading-[28px] mt-[26px] text-left">@ChatX788</a>
             <img src="/ipx/contact-us-arr.webp" class="absolute bottom-[32px] right-[32px]"/>
           </article>
           <article class="min-h-[182px] w-[580px] bg-white border border-gray-100 rounded-lg shadow-custom p-8 box-border relative">
             <h4 class="text-[#22242c] text-[20px] font-semibold leading-[28px] text-left">官方频道</h4>
             <p class="text-[#747983] text-[16px] font-normal leading-[22px] mt-[12px] text-left">关注我们 了解最近动态</p>
-            <a class="text-[#00bc53] cursor-pointer block text-[20px] font-medium leading-[28px] mt-[26px] text-left">@Chatx_news</a>
+            <a class="text-primary-light cursor-pointer block text-[20px] font-medium leading-[28px] mt-[26px] text-left">@Chatx_news</a>
             <img src="/ipx/contact-us-arr.webp" class="absolute bottom-[32px] right-[32px]"/>
           </article>
         </div>

@@ -3,7 +3,7 @@
     
     <div class="flex flex-col items-center w-full pt-[60px] bg-top bg-no-repeat bg-[length:100%_630px]">
                 <!-- 下载客户端 -->
-            <h1 class="mt-[100px] text-[40px] w-[570px] text-[#22242C] font-medium z-5 text-center"><strong class="text-[#00BC53]">下载 ChatX SCRM 客户端</strong></h1>
+            <h1 class="mt-[100px] text-[40px] w-[570px] text-[#22242C] font-medium z-5 text-center"><strong class="text-primary-light">下载 ChatX SCRM 客户端</strong></h1>
 
             <h3 class="text-[#22242c] text-[25px] font-normal leading-[0.53rem] mt-[21px] pt-[0] text-center">跨境出海私域营销一体化解决方案</h3>
 

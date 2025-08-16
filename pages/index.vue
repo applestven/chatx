@@ -1,13 +1,13 @@
 <template>
   <section class="banner-bar min-h-[200vh] home-bg">
     <div class="text-center flex flex-col items-center justify-center">
-      <h1 class="mt-[100px] text-[40px] w-[570px] text-[#22242C] font-medium z-5 text-center" data-aos="fade-up">
-        <strong class="text-[#00BC53] z-5">ChatX</strong>
+      <h1 class="mt-[100px] text-[40px] w-[570px] text-primary font-medium z-5 text-center" data-aos="fade-up">
+        <strong class="text-primary-light z-5">ChatX</strong>
         全球化翻译与智能营销的终极解决方案
       </h1>
 
       <!-- 应用介绍 -->
-      <h3 class="mt-[16px] w-[1024px] text-[#676C76]" data-aos="fade-up">
+      <h3 class="mt-[16px] w-[1024px] text-secondary" data-aos="fade-up">
         致⼒为企业提供跨境翻译与私域营销的全⾯解决⽅案。覆盖WhatsApp、Telegram、Facebook等海外主流平台，⽀持⼀站式多账号管理和⾼效便捷的粉丝运营。同时，ChatX内置的SCRM客户管理功能与AI技术深度融合，显著提升企业沟通效率，推动可持续增⻓。通过精准的跨境翻译与营销策略，帮助企业拓展更有价值的全球客户，实现⽆缝的出海全流程营销。
       </h3>
 
@@ -28,10 +28,10 @@
       <section class="h-[376px] w-[1200px] flex justify-between gap-[18px] items-center">
         <article v-for="item in dataStatistics" :key="item.id"
           class="flex flex-col justify-center flex-1 h-[188px] bg-gradient-to-b from-[#d9ffd7] to-white border-[1px] border-gray-200 rounded-[8px]">
-          <span class="text-[#00BC53] text-[50px] font-medium">
+          <span class="text-primary text-[50px] font-medium">
             <AnimatedNumber :target="item.number" :duration="1000" :suffix="item.suffix" />
           </span>
-          <span class="text-[#676c76] text-[24px]">{{ item.description }}</span>
+          <span class="text-secondary text-[24px]">{{ item.description }}</span>
         </article>
       </section>
 
@@ -101,7 +101,7 @@
       <!-- 开始使用 -->
       <div class="cx-index-end mt-[80px]">
         <div class="mt-[54px] flex-1">
-          <h1 class="text-[#00BC53] text-[36px] font-medium" data-aos="fade-up">ChatX 服务于全球的跨国创业者们，助您精准表达，无缝沟通。</h1>
+          <h1 class="text-primary text-[36px] font-medium" data-aos="fade-up">ChatX 服务于全球的跨国创业者们，助您精准表达，无缝沟通。</h1>
           <p class="text-[16px] mt-[16px]" data-aos="fade-up">无论您对于ChatX的产品定价、方案定制或其他任何方面的问题 都可以随时联系我们</p>
         </div>
         <div class="flex-1 gap-[16px] relative mr-[20px]" data-aos="fade-up">
@@ -120,10 +120,10 @@
       <div class="cx-footer-bar mt-[120px] pt-[68px]">
         <footer class="flex justify-between w-[1200px]">
           <div class="mb-[16px]">
-            <router-link to="/" class="text-[#00BC53] text-[16px] font-medium">
+            <router-link to="/" class="text-primary text-[16px] font-medium">
               <img src="/ipx/logo2.webp" alt="ChatX Logo" class="w-[72px] h-[72px] inline-block mr-[8px]" />
             </router-link>
-            <router-link to="/" class="text-[#00BC53] text-[16px] font-medium mb-[16px]">
+            <router-link to="/" class="text-primary text-[16px] font-medium mb-[16px]">
               <img src="/ipx/logo3.webp" alt="ChatX Logo" class="w-[126px] ] inline-block mr-[8px]" />
             </router-link>
             <p class="mt-[16px] text-[14px]"> ChatX 服务于全球的跨国创业者们，助您精准表达，无缝沟通。</p>

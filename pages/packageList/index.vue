@@ -1,6 +1,6 @@
 <template>
   <div class="pt-[100px] pb-[60px]">
-    <div class="container mx-auto px-4">
+    <div class="mx-auto px-4 w-[1200px]">
       <!-- 页面标题 -->
       <div class="text-center mb-[60px]">
         <h1 class="text-3xl md:text-4xl font-bold text-[#22242C] mb-4">
@@ -17,7 +17,7 @@
         <div class="flex-1 bg-white rounded-lg shadow-[0_10px_15px_#6b6b6b0a,0_5px_20px_#e3e3e30d] border border-[#f3f3f3] p-6">
           <div class="mb-6">
             <h4 class="text-xl font-semibold text-[#22242c] mb-2">
-              免费版 <span class="text-[#00BC53] text-sm font-normal">免费体验</span>
+              免费版 <span class="text-primary-light text-sm font-normal">免费体验</span>
             </h4>
             <div class="flex items-end mb-4">
               <span class="text-3xl font-bold text-[#22242c]">$0</span>
@@ -32,7 +32,7 @@
           
           <ul class="space-y-3">
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">每天免费翻译5000字符</span>
@@ -57,19 +57,19 @@
           
           <ul class="space-y-3">
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">不限使用时长</span>
             </li>
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">不限子账号</span>
             </li>
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">每个子账号端口数量不限</span>
@@ -97,25 +97,25 @@
           
           <ul class="space-y-3">
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">不限字符</span>
             </li>
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">享受平台 基础功能</span>
             </li>
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">可自定义选择套餐</span>
             </li>
             <li class="flex items-center">
-              <svg class="w-5 h-5 text-[#00BC53] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-5 h-5 text-primary-light mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
               </svg>
               <span class="text-[#22242c]">可叠加购买，买多折扣越多</span>
@@ -161,7 +161,7 @@
                   <td class="border border-[#e3e3e3] p-4 text-center">
                     <svg 
                       v-if="feature.free" 
-                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      class="w-5 h-5 text-primary-light mx-auto" 
                       fill="none" 
                       stroke="currentColor" 
                       viewBox="0 0 24 24" 
@@ -173,7 +173,7 @@
                   <td class="border border-[#e3e3e3] p-4 text-center">
                     <svg 
                       v-if="feature.character" 
-                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      class="w-5 h-5 text-primary-light mx-auto" 
                       fill="none" 
                       stroke="currentColor" 
                       viewBox="0 0 24 24" 
@@ -185,7 +185,7 @@
                   <td class="border border-[#e3e3e3] p-4 text-center">
                     <svg 
                       v-if="feature.standard" 
-                      class="w-5 h-5 text-[#00BC53] mx-auto" 
+                      class="w-5 h-5 text-primary-light mx-auto" 
                       fill="none" 
                       stroke="currentColor" 
                       viewBox="0 0 24 24" 
