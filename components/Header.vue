@@ -18,7 +18,7 @@
           <!-- <a href="#features" class="hover:text-blue-500 transition nav-list">产品功能</a> -->
           <div class="relative group"> <!-- 移除了鼠标事件 -->
             <span class="flex items-center product-feature">
-              <a href="#features" class="hover:text-blue-500 transition nav-list">产品功能</a>
+              <a href="#features" class="hover:text-blue-500 transition nav-list text-[14px]">产品功能</a>
             </span>
             <ul class="absolute mt-2 py-2 bg-white border rounded shadow dropdown-menu">
               <li><NuxtLink href="#" class="block px-4 py-2 hover:bg-[#F5FFF6]" to="/product/productTranslate">实时翻译 · 智能多语言识别</NuxtLink></li>
@@ -28,31 +28,18 @@
             </ul>
           </div>
 
-          <NuxtLink href="#download" class="hover:text-blue-500 transition" to="/download">下载中心</NuxtLink>
-          <NuxtLink href="#contact" class="hover:text-blue-500 transition" to="/contact">联系我们</NuxtLink>
-          <NuxtLink href="#pricing" class="hover:text-blue-500 transition" to="/packageList">套餐价格</NuxtLink>
-          <a href="#support" class="hover:text-blue-500 transition">客户支持</a>
-          <a href="#tutorials" class="hover:text-blue-500 transition">教程资源</a>
+          <NuxtLink href="#download" class="transition text-[14px]" to="/download">下载中心</NuxtLink>
+          <NuxtLink href="#contact" class="transition text-[14px]" to="/contact">联系我们</NuxtLink>
+          <NuxtLink href="#pricing" class="transition text-[14px]" to="/packageList">套餐价格</NuxtLink>
+          <a href="#support" class="transition text-[14px]">客户支持</a>
+          <a href="#tutorials" class="transition text-[14px]">教程资源</a>
         </nav>
       </div>
 
       <div class="w-[320px] flex items-center max-md:hidden">
-
-        <!-- 登录 & 语言 -->
-        <!-- <div class="flex items-center justify-between text-sm w-[184px] hidden md:flex">
-          <a href="/login"
-            class="px-[20px] py-[8px] bg-[#22242C] text-white rounded hover:bg-gray-600 transition leading-[20px]">登录</a>
-          <a href="/trial" class="px-5 py-2 bg-[#00BC53] text-white rounded transition">免费试用</a>
-        </div> -->
-        <button class="w-[68px] bg-[#22242c] rounded-[4px] text-white text-[14px] leading-[20px] mr-[20px] px-[20px] py-[8px] transition-all duration-300 max-md:hidden">登录</button>
-        <button class="w-[96px] bg-[#00bc53] rounded-[4px] text-white text-[14px] leading-[20px] px-[20px] py-[8px] transition-all duration-300 max-md:hidden">免费试用</button>
-
-        <!-- <div class="px-[20px] py-[8px] ml-2 text-gray-700 flex items-center cursor-pointer gap-[10px] hidden md:flex">
-            简体中文
-          <img src="/ipx/language-icon.png" class="w-5 h-5" alt="">
-        </div> -->
-
-        <div class="inline-block mr-0">
+        <button class="w-[68px] bg-[#22242c] rounded-[4px] text-white text-[14px] leading-[20px] mr-[20px] px-[20px] py-[8px] transition-all duration-300 max-md:hidden cursor-pointer">登录</button>
+        <button class="w-[96px] bg-[#00bc53] rounded-[4px] text-white text-[14px] leading-[20px] px-[20px] py-[8px] transition-all duration-300 max-md:hidden cursor-pointer">免费试用</button>
+        <div class="inline-block mr-0 cursor-pointer">
           <p class="flex items-center text-[14px] gap-[10px] justify-start w-[132px] px-[16px] py-[8px] text-left">
               简体中文
             <img src="/ipx/language-icon.png" class="w-5 h-5" alt="">
